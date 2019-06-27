@@ -29,18 +29,18 @@ public class Main {
         double subtotal = 0.00;
         double tax = 0.00;
 
-//        System.out.println("Enter your name: ");
-//        person.setName(in.nextLine());
-//
-//        System.out.println("Enter your address: ");
-//        person.setAddress(in.nextLine());
-//
-//        System.out.println("Enter the date: ");
-//        person.setDate(in.nextLine());
-//
-//        System.out.println("Enter your account number: ");
-//        person.setAccountnumber(in.nextInt());
-//        in.nextLine();
+        System.out.println("Enter your name: ");
+        person.setName(in.nextLine());
+
+        System.out.println("Enter your address: ");
+        person.setAddress(in.nextLine());
+
+        System.out.println("Enter the date: ");
+        person.setDate(in.nextLine());
+
+        System.out.println("Enter your account number: ");
+        person.setAccountnumber(in.nextInt());
+        in.nextLine();
 
 
         while(!input.equals("n"))
